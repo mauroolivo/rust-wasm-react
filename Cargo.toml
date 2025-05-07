@@ -1,7 +1,6 @@
 [package]
 name = "rust-wasm-react"
 version = "0.1.0"
-authors = ["Mauro Olivo <olivomauro@gmail.com>"]
 edition = "2021"
 
 [lib]
