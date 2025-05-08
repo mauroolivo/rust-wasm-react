@@ -29,18 +29,10 @@ Initialize a rect project inside the rust-wasm-react folder
  $ npx create-react-app www
 ```
 in `www/package.json` add the wasm pkg dependency
-```json
-{
-  "dependencies":
-  {
-    "rust-wasm-react": "file:../pkg"  
-  }
-}
 ```
-"dependencies": {
-"...",
+"rust-wasm-react": "file:../pkg"  
+```
 
-}
 to install the new dependency
 ```shell
  $ cd www
