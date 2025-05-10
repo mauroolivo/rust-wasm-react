@@ -1,6 +1,6 @@
 # Rust Wasm React Template
 
-This repo is a starting point template to develop a react project backed with rust code embedded via WebAssembly.
+This repo is a starting point template to develop a React project backed with Rust code embedded via Web Assembly.
 Both, Rust and React code, can be changed and changes seen in the browser. 
 
 ## How to configure 
@@ -13,7 +13,7 @@ Both, Rust and React code, can be changed and changes seen in the browser.
 - add [utils.rs](https://github.com/mauroolivo/rust-wasm-react/blob/main/src/utils.rs)
 - update [lib.rs](https://github.com/mauroolivo/rust-wasm-react/blob/main/src/lib.rs)
 
-The rust part is ready, now create the web assembly with
+The Rust part is ready, now create the Web Assembly with
 ```sh
  $ wasm-pack build --target web
 ```
@@ -24,7 +24,7 @@ or equivalently:
 ```
 ### React setup
 
-Initialize a rect project inside the rust-wasm-react folder
+Initialize the Rect project inside the rust-wasm-react folder
 ```sh
  $ npx create-react-app www
 ```
